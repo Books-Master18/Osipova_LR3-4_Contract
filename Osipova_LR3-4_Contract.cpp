@@ -112,6 +112,4 @@ istream& operator>>(istream& mystream, Polynom& obj)
 		obj.koef.push_back(stod(st));
 	}
 	return mystream;
-
-
 }
