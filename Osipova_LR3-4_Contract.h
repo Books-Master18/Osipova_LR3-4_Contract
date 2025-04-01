@@ -6,11 +6,9 @@
 
 using namespace std;
 
-class Contract {
+class Polynom {
 	unsigned deg{ 0 }; //степень полинома
 	vector<double> koef; //массив коэффициентов 
-
-};
 
 public:
 	//конструкторы
@@ -31,18 +29,18 @@ public:
 			koef.resize(k);
 			koef.assign(mas.begin(), mas.begin() + k);
 		}
-		else
+		else{
 			cerr << "Error: Degree exceeds coefficients count." << endl;
     }
     }
-	
-	
-	void setDegree(unsigned k) {//установить степень
+	void setDegree(unsigned k) //установить степень 
+    {
 		deg = k;
 	}; 
 		//get-методы
-	unsigned getDegree() const { return deg; }; //получить cтeneнb
-	const vector<double> getKoef() const (return koef;}
+	unsigned getDegree() const { return deg; }; //получить cтeneнь
+
+	const vector<double> getKoef() const {return koef;}
 	void Calculatevalue(double x); //вычисление значения полинома для заданного x
 		//перегрузка операторов
 	Polynom operator+(const Polynom& other) const;
