@@ -1,6 +1,6 @@
 #include <cmath> 
 #include <iomanip>
-#include <M:\\Programming\\LR\\LR3_Class_Method\\Methods.h>
+#include <M:\\Osipova_Program\\Osipova_LR3-4_Contract\\Methods.h>
 
 //конструкторы
 Polynom::Polynom()

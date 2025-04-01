@@ -8,7 +8,7 @@
 #include <iomanip> // Для setprecision
 
 // Предполагается, что у вас есть заголовочный файл с определением класса Polynom (или Contract, как в предыдущем примере)
-#include "Methods.h" // Замените на фактическое имя файла, если он другой
+#include <M:\\Osipova_Program\\Osipova_LR3-4_Contract\\Methods.h> // Замените на фактическое имя файла, если он другой
 
 // Глобальный вектор объектов класса Polynom
 std::vector<Polynom> vectorOfallPolynoms;
